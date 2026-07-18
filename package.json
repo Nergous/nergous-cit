@@ -1,6 +1,6 @@
 {
   "name": "nergous-cit-ui-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nergous-cit Design System — a zero-dependency Vue 3 component library: themeable & density-aware design tokens, 41 components, and composables.",
   "type": "module",
   "main": "./index.js",

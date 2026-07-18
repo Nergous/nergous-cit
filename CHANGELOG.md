@@ -3,7 +3,7 @@
 All notable changes to the nergous-cit design system are documented here.
 The project loosely follows [Semantic Versioning](https://semver.org/).
 
-## Unreleased
+## v1.0.1 — 2026-07-18
 
 ### Added
 
