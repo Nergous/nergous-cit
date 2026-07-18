@@ -14,6 +14,7 @@ The project loosely follows [Semantic Versioning](https://semver.org/).
 
 - `NSelect` wraps long option labels and keeps its dropdown within the control width.
 - `NToaster` vertically centers title-only and message-only single-line toasts.
+- `NSelect` listboxes remain visible inside `NModal`, and Escape closes the listbox before the dialog.
 
 ## v1.0.0 — 2026-06-30
 
