@@ -3,6 +3,18 @@
 All notable changes to the nergous-cit design system are documented here.
 The project loosely follows [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+### Added
+
+- `NSelectWithSearch`, a searchable single-select listbox with client-side filtering.
+- `rowClass` support in `NDataTable` for per-row classes.
+
+### Fixed
+
+- `NSelect` wraps long option labels and keeps its dropdown within the control width.
+- `NToaster` vertically centers title-only and message-only single-line toasts.
+
 ## v1.0.0 — 2026-06-30
 
 Initial release as a standalone repository (snapshot-distribution model).

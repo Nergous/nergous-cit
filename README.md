@@ -11,7 +11,7 @@ project and import from the barrel.
 
 ## Requirements
 
-- **Vue 3** (`^3.3`) — the only peer dependency.
+- **Vue 3** (`^3.5`) — the only peer dependency.
 - A bundler that understands `.vue` single-file components and `.css` imports
   (Vite, Rollup, webpack, …). Vite is the reference setup.
 
@@ -183,6 +183,7 @@ also exported standalone from the barrel.
 | `NFormField` | Field wrapper: label + control + error/hint | `label`, `error`, `hint`, `required`, `tag` (`label`/`div`), `labelId`; passes an a11y contract to the nested control via `useFormField` (provide/inject — `aria-describedby`/`aria-invalid`/`aria-required`) |
 | `NInput` | Text input | `v-model`, `type`, `icon`, `error`, `placeholder` |
 | `NSelect` | Themed listbox (replaces native `<select>`) | `v-model` (value), `options: [{value,label,disabled?}]`, `placeholder`, `error` |
+| `NSelectWithSearch` | Searchable single-select listbox | `v-model` (value), `options: [{value,label,disabled?}]`, `placeholder`, `searchPlaceholder`, `noResultsText`, `error` |
 | `NTextarea` | Multi-line input | `v-model`, `rows` |
 | `NRichText` | Mini WYSIWYG on `contenteditable` | `v-model` (HTML string), `placeholder`, `error`, `disabled`, `labels` (toolbar captions), `tools` (limit the button set). With `NFormField` use `tag="div"` |
 | `NSwitch` | Toggle | `v-model` (Boolean) |
